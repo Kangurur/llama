@@ -86,8 +86,8 @@ trainer = Trainer(
 trainer.train()
 
 
-text_list=["Lubię kangury",
-           "Uniwersytet Jagielloński jest najlepszy",
+text_list=["Ile żyje kangur?",
+           "UJ jest najlepszy",
            "Dlaczego jestem upośledzony?",
            "Błagam pomocy",
            "Gdzie jest uniwersytet jagielloński?",
@@ -108,3 +108,13 @@ for text in text_list:
     predictions = torch.max(logits,1).indices
 
     print(text + " - " + id2label[predictions.tolist()[0]])
+    
+    
+from huggingface_hub import login
+write_key = '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' 
+login(write_key)
+hf_name="olipol"
+id=hf_name+"/smaug_test"
+
+model.push_to_hub(id)
+trainer.push_to_hub(id)

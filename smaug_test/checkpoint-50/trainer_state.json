@@ -1,5 +1,5 @@
 {
-  "best_metric": 0.683310329914093,
+  "best_metric": 0.6789922714233398,
   "best_model_checkpoint": "C:/Users/Oliwier/smaug/smaug_test\\checkpoint-50",
   "epoch": 1.0,
   "eval_steps": 500,
@@ -11,12 +11,12 @@
     {
       "epoch": 1.0,
       "eval_accuracy": {
-        "accuracy": 0.5
+        "accuracy": 0.7
       },
-      "eval_loss": 0.683310329914093,
-      "eval_runtime": 0.0972,
-      "eval_samples_per_second": 102.847,
-      "eval_steps_per_second": 30.854,
+      "eval_loss": 0.6789922714233398,
+      "eval_runtime": 0.0851,
+      "eval_samples_per_second": 117.57,
+      "eval_steps_per_second": 35.271,
       "step": 50
     }
   ],
