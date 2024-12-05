@@ -111,7 +111,7 @@ for text in text_list:
     
     
 from huggingface_hub import login
-write_key = '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' 
+write_key = 'hf_' 
 login(write_key)
 hf_name="olipol"
 id=hf_name+"/smaug_test"
