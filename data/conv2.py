@@ -1,10 +1,10 @@
 files1=list(["data/uj_val.txt"])
 files2=list(["data/nieuj_val.txt"])
 
-with open('data/uj2.csv','w') as f:
+with open('data/uj2.csv','w',encoding="utf8") as f:
     #f.write("\"labels\",\"text\"\n")
     for file in files1:
-        with open(file,'r') as g:
+        with open(file,'r',encoding="utf8") as g:
             data=g.readlines()
             for line in data:
                 line=line[line.find(' ')+1:-3]
@@ -12,7 +12,7 @@ with open('data/uj2.csv','w') as f:
                 #print(line)
                 f.write(line+'\n')
     for file in files2:
-        with open(file,'r') as h:
+        with open(file,'r',encoding="utf8") as h:
             data=h.readlines()
             for line in data:
                 line=line[line.find(' ')+1:-3]
@@ -21,10 +21,10 @@ with open('data/uj2.csv','w') as f:
                 f.write(line+'\n')
 
 import random
-with open('data/uj2.csv','r') as f:
+with open('data/uj2.csv','r',encoding="utf8") as f:
     data=f.readlines()
     random.shuffle(data)
-    with open('data/uj2.csv','w') as g:
+    with open('data/uj2.csv','w',encoding="utf8") as g:
         g.write("\"labels\",\"text\"\n")
         for line in data:
             g.write(line)
