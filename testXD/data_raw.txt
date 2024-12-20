@@ -1,0 +1,7 @@
+nick;nazwa;opis;mieszka;dodatek
+olipol;Oliwier Polak;to giga szef, no kozak totalny, nie ma nic do kobiet;w Krakowie;Yone D tier, gdzie buffy?
+Dario;Karol Dziekan;to trochę noob, leni się i jeszcze darmowego API nie znalazł;w Krakowie;Gdyby grał w ligę to mainowałby Jaxa, pewnie lubi małe dzieci
+Miesieł;Adam Kopyto;to simga,to najlepszy yasuo EUNE;w Pniowcu;jego KD na yasuo to 0.89 XD
+Michaś;Michał Kargol;to idol, ale coś rzadko w ligę gra ostatnio;w Porąbce Uszewskiej XD;nuh uh
+Skiz;Dawid Śmigielski;gra w ligę raz na pół roku, poznał Sadoxa w jego domu;w Grudziądzu;nuh uh
+Sadox;Olivier Napolski;shenem gra, noob nie wbił rangi w tym splicie;w Grudziądzu;Skiz go poznał w jego domu
