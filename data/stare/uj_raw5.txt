@@ -1,0 +1,75 @@
+1. Wydział Matematyki i Informatyki UJ znajduje się w Krakowie.  
+2. Siedziba wydziału mieści się na Kampusie 600-lecia Odnowienia Uniwersytetu Jagiellońskiego.  
+3. Wydział oferuje studia na kierunkach matematyka i informatyka.  
+4. Studenci mogą wybierać między studiami pierwszego i drugiego stopnia.  
+5. Wydział prowadzi również studia doktoranckie w zakresie matematyki i informatyki.  
+6. Na kierunku matematyka można wybrać specjalizację teoretyczną lub stosowaną.  
+7. Kierunek informatyka kładzie nacisk na programowanie i projektowanie systemów.  
+8. Wydział współpracuje z wieloma firmami z branży IT.  
+9. Studenci mają dostęp do nowoczesnych laboratoriów komputerowych.  
+10. Wydział oferuje kursy z języków programowania, takich jak Python, Java i C++.  
+11. Na wydziale prowadzone są badania z zakresu sztucznej inteligencji.  
+12. Matematyka na wydziale obejmuje zarówno teorię, jak i zastosowania praktyczne.  
+13. Wydział organizuje liczne warsztaty i seminaria naukowe.  
+14. Biblioteka wydziałowa oferuje bogaty zbiór książek i materiałów dydaktycznych.  
+15. Wydział współpracuje z uczelniami z całego świata.  
+16. Studenci mają możliwość uczestniczenia w programach wymiany, takich jak Erasmus.  
+17. Na wydziale działa kilka kół naukowych.  
+18. Koło naukowe matematyki organizuje konkursy i wykłady.  
+19. Koło naukowe informatyki często organizuje hackathony.  
+20. Wydział prowadzi studia podyplomowe z zakresu analizy danych.  
+21. Studenci matematyki uczą się zaawansowanej algebry i analizy matematycznej.  
+22. Informatycy zdobywają umiejętności projektowania aplikacji mobilnych.  
+23. Na wydziale można realizować prace dyplomowe we współpracy z przemysłem.  
+24. Wydział prowadzi badania z zakresu kryptografii.  
+25. Studenci informatyki mogą specjalizować się w inżynierii oprogramowania.  
+26. Matematycy mogą realizować projekty z matematyki finansowej.  
+27. Wydział regularnie organizuje konferencje naukowe.  
+28. Na wydziale odbywają się międzynarodowe seminaria matematyczne.  
+29. Studenci mają dostęp do zasobów dydaktycznych online.  
+30. Na wydziale oferowane są kursy z zakresu uczenia maszynowego.  
+31. Matematyka stosowana jest jedną z najczęściej wybieranych specjalizacji.  
+32. Wydział wspiera studentów w realizacji własnych badań naukowych.  
+33. Absolwenci wydziału są cenieni na rynku pracy.  
+34. Wydział organizuje dni otwarte dla kandydatów na studia.  
+35. Na wydziale odbywają się wykłady gościnne światowej klasy naukowców.  
+36. Informatyka na wydziale obejmuje także zagadnienia związane z cyberbezpieczeństwem.  
+37. Matematyka finansowa cieszy się dużym zainteresowaniem wśród studentów.  
+38. Wydział oferuje stypendia dla najzdolniejszych studentów.  
+39. Studenci mogą uczestniczyć w projektach interdyscyplinarnych.  
+40. Na wydziale prowadzone są badania z zakresu algorytmiki.  
+41. Wydział kładzie nacisk na praktyczne zastosowania wiedzy.  
+42. Absolwenci informatyki często pracują w międzynarodowych firmach IT.  
+43. Matematycy znajdują zatrudnienie w instytucjach finansowych.  
+44. Na wydziale prowadzone są zajęcia z teorii liczb.  
+45. Informatyka obejmuje także projektowanie baz danych.  
+46. Studenci mają możliwość uczestniczenia w stażach w renomowanych firmach.  
+47. Wydział współpracuje z sektorem publicznym i prywatnym.  
+48. Wydział wspiera studentów z niepełnosprawnościami.  
+49. Na wydziale prowadzone są badania z zakresu grafiki komputerowej.  
+50. Informatycy uczą się także technologii chmurowych.  
+51. Matematycy rozwijają umiejętności modelowania matematycznego.  
+52. Wydział organizuje konkursy matematyczne dla uczniów szkół średnich.  
+53. Na wydziale dostępne są kursy z zakresu optymalizacji.  
+54. Informatyka obejmuje również projektowanie interfejsów użytkownika.  
+55. Studenci mogą korzystać z platformy e-learningowej wydziału.  
+56. Wydział współpracuje z ośrodkami badawczymi na całym świecie.  
+57. Matematyka na wydziale obejmuje również topologię i geometrię.  
+58. Informatyka oferuje kursy z zakresu technologii mobilnych.  
+59. Studenci mogą uczestniczyć w warsztatach dotyczących przedsiębiorczości.  
+60. Wydział organizuje szkolenia z umiejętności miękkich.  
+61. Na wydziale prowadzone są badania z zakresu sieci neuronowych.  
+62. Informatycy uczą się projektowania systemów wbudowanych.  
+63. Matematycy pracują nad rozwiązaniami problemów optymalizacyjnych.  
+64. Wydział jest częścią prestiżowego Uniwersytetu Jagiellońskiego.  
+65. Na wydziale panuje przyjazna atmosfera sprzyjająca nauce.  
+66. Informatyka na wydziale obejmuje także naukę o systemach operacyjnych.  
+67. Matematyka stosowana ma szerokie zastosowanie w przemyśle i finansach.  
+68. Na wydziale działa inkubator przedsiębiorczości.  
+69. Studenci mogą uczestniczyć w badaniach z zakresu teorii grafów.  
+70. Informatyka na wydziale obejmuje także zagadnienia sztucznej inteligencji.  
+71. Matematycy pracują nad rozwiązaniami problemów logistycznych.  
+72. Wydział oferuje nowoczesne laboratoria dydaktyczne.  
+73. Absolwenci wydziału często kontynuują naukę na prestiżowych uczelniach zagranicznych.  
+74. Wydział jest ceniony za wysoki poziom kształcenia.  
+75. Studenci mają możliwość rozwijania pasji naukowych i zawodowych.  
