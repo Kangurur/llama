@@ -1,6 +1,5 @@
 from datasets import Dataset
-from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, DataCollatorWithPadding
-from transformers import BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoModelForCausalLM, Trainer, TrainingArguments, DataCollatorForLanguageModeling
 import torch
 
 torch.cuda.empty_cache()
@@ -56,7 +55,7 @@ trainer = Trainer(
     args=training_args,
     train_dataset=dataset,
     eval_dataset=dataset_test,
-    data_collator=DataCollatorWithPadding(tokenizer=tokenizer),
+    data_collator=DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False),
     tokenizer=tokenizer,
 )
 
