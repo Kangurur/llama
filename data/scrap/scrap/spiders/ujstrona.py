@@ -34,21 +34,29 @@ class QuotesSpider(scrapy.Spider):
     start_urls = [
         #"https://en.uj.edu.pl/en_GB",
         "https://www.uj.edu.pl/pl",
-        "https://bip.uj.edu.pl/"
+        #"https://bip.uj.edu.pl/"
     ]
     vis = set()  # Użyjemy zestawu dla szybszego sprawdzania
+    tunie = set()
+    tunie.add("ruj") #stąd nie ma odwrotu :skull:
+    tunie.add("usosweb") #to się osobno ogarnie
 
     def parse(self, response):
+        ans=""
         for xd in response.css("p").getall():
             txt=text(xd)
-            if len(txt)>10:
-                yield {
-                 "text": wywalspacjeiendl(txt)
+            if len(txt)>2:
+                ans+=wywalspacjeiendl(txt)+" "
+        if len(ans)>3 and "sts" not in response.url:
+            yield {
+                "link": response.url,
+                "text": ans
                 }
 
         for href in response.css("a::attr(href)"):
             url = response.urljoin(href.get())
-            if "uj" in url and url not in self.vis:
+            #id=url[8:url.find(".")]
+            if "www.uj.edu.pl" in url and url not in self.vis and "wiadomos" not in url and "journal" not in url:
                 self.vis.add(url)
                 yield response.follow(url, callback=self.parse)
             

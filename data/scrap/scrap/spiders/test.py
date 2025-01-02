@@ -33,21 +33,33 @@ class QuotesSpider(scrapy.Spider):
 
     start_urls = [
         #"https://en.uj.edu.pl/en_GB",
-        "https://www.uj.edu.pl/pl",
-        "https://bip.uj.edu.pl/"
+        "https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=WFz.KPSC-8574",
+        #"https://bip.uj.edu.pl/"
     ]
+    # def start_requests(self):
+    #     urls = [
+    #         "https://www.usosweb.uj.edu.pl/kontroler.php?_action=katalog2/przedmioty/pokazPrzedmiot&prz_kod=WFz.KPSC-8574",
+    #     ]
+    #     for url in urls:
+    #         xd=scrapy.Request(url=url,meta = {'dont_redirect': True}, callback=self.parse)
+    #         yield xd
     vis = set()  # Użyjemy zestawu dla szybszego sprawdzania
 
     def parse(self, response):
-        for xd in response.css("title::text").getall():
-            yield {
-                "text": xd
+        ans=""
+        for xd in response.css("p").getall():
+            txt=text(xd)
+            if len(txt)>2:
+                ans+=wywalspacjeiendl(txt)+" "
+        yield {
+            "link": response.url,
+            "text": ans
             }
 
-        for href in response.css("a::attr(href)"):
-            url = response.urljoin(href.get())
-            if "uj" in url and url not in self.vis:
-                self.vis.add(url)
-                yield response.follow(url, callback=self.parse)
+        # for href in response.css("a::attr(href)"):
+        #     url = response.urljoin(href.get())
+        #     if "uj" in url and url not in self.vis:
+        #         self.vis.add(url)
+        #         yield response.follow(url, callback=self.parse)
             
 #nuh uh
