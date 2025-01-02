@@ -32,19 +32,24 @@ class QuotesSpider(scrapy.Spider):
     name = "uj"
 
     start_urls = [
-        "https://en.uj.edu.pl/en_GB",
+        #"https://en.uj.edu.pl/en_GB",
+        "https://www.uj.edu.pl/pl",
+        "https://bip.uj.edu.pl/"
     ]
-    it=0
+    vis = set()  # Użyjemy zestawu dla szybszego sprawdzania
+
     def parse(self, response):
         for xd in response.css("p").getall():
             txt=text(xd)
-            if len(txt)>2:
+            if len(txt)>10:
                 yield {
-                    "text": wywalspacjeiendl(txt)
+                 "text": wywalspacjeiendl(txt)
                 }
-        
-                
-        yield from response.follow_all(css="a", callback=self.parse)
 
+        for href in response.css("a::attr(href)"):
+            url = response.urljoin(href.get())
+            if "uj" in url and url not in self.vis:
+                self.vis.add(url)
+                yield response.follow(url, callback=self.parse)
             
 #nuh uh
