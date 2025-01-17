@@ -32,8 +32,8 @@ class QuotesSpider(scrapy.Spider):
     name = "uj"
 
     start_urls = [
-        #"https://en.uj.edu.pl/en_GB",
-        "https://www.uj.edu.pl/pl",
+        "https://en.uj.edu.pl/en_GB",
+        #"https://www.uj.edu.pl/pl",
         #"https://bip.uj.edu.pl/"
     ]
     vis = set()  # Użyjemy zestawu dla szybszego sprawdzania
@@ -56,7 +56,7 @@ class QuotesSpider(scrapy.Spider):
         for href in response.css("a::attr(href)"):
             url = response.urljoin(href.get())
             #id=url[8:url.find(".")]
-            if "www.uj.edu.pl" in url and url not in self.vis and "wiadomos" not in url and "journal" not in url:
+            if "en.uj.edu.pl" in url and url not in self.vis and "wiadomos" not in url and "journal" not in url:
                 self.vis.add(url)
                 yield response.follow(url, callback=self.parse)
             
